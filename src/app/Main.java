@@ -3,7 +3,10 @@ package app;
 public class Main {
 
     public static void main(String[] args) {
+        runDemo();
+    }
 
+    public static void runDemo(){
         Substance substance = new Substance();
 
         new ColorSensor(substance);
