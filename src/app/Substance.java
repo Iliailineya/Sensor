@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Substance {
     private final List<Sensor> sensors = new ArrayList<>();
-    private int state;
+    private int state = 0;
 
     public int getState() {
         return state;
